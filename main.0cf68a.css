@@ -758,7 +758,7 @@ html {
   background: hsla(0, 0%, 100%, 0.3);
 }
 .left-col {
-  background-image: url("background.jpg");
+  background-image: url("22.jpg");
   width: 300px;
   position: fixed;
   opacity: 1;
@@ -767,7 +767,7 @@ html {
   z-index: 999;
 }
 .left-col .overlay {
-  background-image: url("background.jpg");
+  background-image: url("22.jpg");
   width: 100%;
   height: 180px;
   position: absolute;
@@ -2937,7 +2937,7 @@ pre .id {
     color: #424242;
   }
   #mobile-nav .overlay {
-    background-image: url("background.jpg");
+    background-image: url("22.jpg");
     height: 110px;
     position: absolute;
     width: 100%;

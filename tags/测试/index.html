@@ -42,8 +42,8 @@
 <div class="intrude-less">
 	<header id="header" class="inner">
 		<a href="/" class="profilepic">
-			<img src="/assets/img/img.jpg" class="js-avatar">
-		</a>
+			<img src="/assets/img/touxiang.jpg" class="js-avatar">
+	    </a>
 		<hgroup>
 		  <h1 class="header-author"><a href="/">Rui</a></h1>
 		</hgroup>
@@ -78,8 +78,11 @@
             
 		</nav>
 		<nav>
-		   <a>总文章数5</a>
+		   <a>总文章数6</a>
 		<nav>
+		<nav>
+            总字数 <span class="post-count">333</span>
+        </nav>
 		<nav class="header-nav">
 			<div class="social">
 				
@@ -109,7 +112,7 @@
 	<div class="intrude-less">
 		<header id="header" class="inner">
 			<div class="profilepic">
-				<img src="/assets/img/img.jpg" class="js-avatar">
+				<img src="/assets/img/touxiang.jpg" class="js-avatar">
 			</div>
 			<hgroup>
 			  <h1 class="header-author js-header-author">Rui</h1>
@@ -183,14 +186,14 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
       	<div class="article-meta">
-	      	<a href="/2019/12/12/%E6%B5%8B%E8%AF%95/" class="archive-article-date">
-  	<time datetime="2019-12-12T13:58:06.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-12-12</time>
+	      	<a href="/2019/12/13/%E6%B5%8B%E8%AF%95-1/" class="archive-article-date">
+  	<time datetime="2019-12-13T02:21:01.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-12-13</time>
 </a>
         </div>
     	 
   
     <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/12/12/%E6%B5%8B%E8%AF%95/">测试</a>
+      <a class="archive-article-title" href="/2019/12/13/%E6%B5%8B%E8%AF%95-1/">测试</a>
     </h1>
   
 
@@ -234,9 +237,29 @@
       	<div class="footer-right">
       		<a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/litten/hexo-theme-yilia" target="_blank">Yilia</a> by Litten
       	</div>
+	<span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span>
+    <script>
+    var now = new Date(); 
+    function createtime() { 
+        var grt= new Date("12/10/2019 19:30:00");//此处修改你的建站时间或者网站上线时间 
+        now.setTime(now.getTime()+250); 
+        days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days); 
+        hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours); 
+        if(String(hnum).length ==1 ){hnum = "0" + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum); 
+        mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;} 
+        seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum); 
+        snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;} 
+        document.getElementById("timeDate").innerHTML = "本站已安全运行 "+dnum+" 天 "; 
+        document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒"; 
+    } 
+    setInterval("createtime()",250);
+    </script>
     </div>
   </div>
 </footer>
+ 
+
+
     </div>
     <script>
 	var yiliaConfig = {
@@ -316,15 +339,15 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">调试</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">测试</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">博客问题</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">主题内容</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -485,5 +508,10 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
 
 </div>
   </div>
+   <!-- 《页面点击小红心 -->
+   
+        <script type="text/javascript" src="/js/love.js"></script>
+   
+   <!-- 页面点击小红心》 -->
 </body>
 </html>

@@ -860,7 +860,7 @@ html {
 .left-col #header .header-author {
   text-align: center;
   margin: 0.67em 0;
-  font-family: Roboto, serif;
+  font-family: Times New Roman,Georgia,Serif;
   font-size: 30px;
   transition: 0.3s;
 }

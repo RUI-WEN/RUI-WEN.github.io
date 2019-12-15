@@ -41,8 +41,8 @@ const ap = new APlayer({
                  },
         {
             name: '出山 ：花粥,王胜娚',
-            artist: '/music/lrc/花粥,王胜娚',
-            lrc: '出山-花粥,王胜娚.lrc',
+            artist: '花粥,王胜娚',
+            lrc: '/music/lrc/出山-花粥,王胜娚.lrc',
             cover: 'http://p2.music.126.net/yHRY23bKbLJjjbSnE-T8gA==/109951163575213436.jpg?param=300x300',
             url: 'http://m10.music.126.net/20191214133838/e132940444a8f754dcd8ea169713968c/ymusic/59c5/8f95/298d/11d842f39fb503bb9b29c37ad4080a14.mp3'
                  },				 

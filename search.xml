@@ -8,7 +8,7 @@
       <link href="/2019/12/13/%E6%9B%B4%E6%94%B9hexo%E4%B8%BB%E9%A2%98yilia%E5%B7%A6%E4%BE%A7%E8%83%8C%E6%99%AF%E5%9B%BE%E7%89%87%E6%94%BB%E7%95%A5/"/>
       <url>/2019/12/13/%E6%9B%B4%E6%94%B9hexo%E4%B8%BB%E9%A2%98yilia%E5%B7%A6%E4%BE%A7%E8%83%8C%E6%99%AF%E5%9B%BE%E7%89%87%E6%94%BB%E7%95%A5/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
       
       
       
@@ -21,7 +21,7 @@
       <link href="/2019/12/13/%E6%B5%8B%E8%AF%95-1/"/>
       <url>/2019/12/13/%E6%B5%8B%E8%AF%95-1/</url>
       
-        <content type="html"><![CDATA[   ]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>   ]]></content>
       
       
       
@@ -40,7 +40,7 @@
       <link href="/2019/12/12/%E7%BD%91%E9%A1%B5%E5%B0%8F%E5%9B%BE%E6%A0%87%E8%B0%83%E8%AF%95/"/>
       <url>/2019/12/12/%E7%BD%91%E9%A1%B5%E5%B0%8F%E5%9B%BE%E6%A0%87%E8%B0%83%E8%AF%95/</url>
       
-        <content type="html"><![CDATA[<h1 id="hexo-yilia主题博客如何添加图标icon"><a href="#hexo-yilia主题博客如何添加图标icon" class="headerlink" title="hexo+yilia主题博客如何添加图标icon"></a>hexo+yilia主题博客如何添加图标icon</h1><p>   1.先去比特虫网站做icon图标<br>   2.图片放到hexo/source/img文件夹下</p>  <a id="more"></a><h1 id="找到-hexo-themes-modernist-layout-partial-head-ejs，设置为"><a href="#找到-hexo-themes-modernist-layout-partial-head-ejs，设置为" class="headerlink" title="找到 hexo\themes\modernist\layout_partial\head.ejs，设置为"></a>找到 hexo\themes\modernist\layout_partial\head.ejs，设置为</h1>   <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">%</span> <span class="attr">if</span> (<span class="attr">theme.favicon</span>)&#123; %&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">"icon"</span> <span class="attr">href</span>=<span class="string">"/img/favicon.ico"</span>&gt;</span>  </span><br><span class="line"><span class="tag">&lt;<span class="name">%</span> &#125; %&gt;</span></span><br></pre></td></tr></table></figure><p>   其中favicon改为图片名称<br>   <a href="https://www.cnblogs.com/wangyuehan/p/10033203.html" target="_blank">日志</a></p>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="hexo-yilia主题博客如何添加图标icon"><a href="#hexo-yilia主题博客如何添加图标icon" class="headerlink" title="hexo+yilia主题博客如何添加图标icon"></a>hexo+yilia主题博客如何添加图标icon</h1><p>   1.先去比特虫网站做icon图标<br>   2.图片放到hexo/source/img文件夹下</p>  <a id="more"></a><h1 id="找到-hexo-themes-modernist-layout-partial-head-ejs，设置为"><a href="#找到-hexo-themes-modernist-layout-partial-head-ejs，设置为" class="headerlink" title="找到 hexo\themes\modernist\layout_partial\head.ejs，设置为"></a>找到 hexo\themes\modernist\layout_partial\head.ejs，设置为</h1>   <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">%</span> <span class="attr">if</span> (<span class="attr">theme.favicon</span>)&#123; %&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">"icon"</span> <span class="attr">href</span>=<span class="string">"/img/favicon.ico"</span>&gt;</span>  </span><br><span class="line"><span class="tag">&lt;<span class="name">%</span> &#125; %&gt;</span></span><br></pre></td></tr></table></figure><p>   其中favicon改为图片名称<br>   <a href="https://www.cnblogs.com/wangyuehan/p/10033203.html" target="_blank">日志</a></p>]]></content>
       
       
       
@@ -59,7 +59,7 @@
       <link href="/2019/12/12/%E9%9A%8F%E7%AC%94/"/>
       <url>/2019/12/12/%E9%9A%8F%E7%AC%94/</url>
       
-        <content type="html"><![CDATA[<p>  纵使人间六月寒，犹有温暖送心间</p>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>  纵使人间六月寒，犹有温暖送心间</p>]]></content>
       
       
       
@@ -78,7 +78,7 @@
       <link href="/2019/12/11/%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%84%9F%E8%A8%80/"/>
       <url>/2019/12/11/%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%84%9F%E8%A8%80/</url>
       
-        <content type="html"><![CDATA[<h1 id="创建博客相册问题"><a href="#创建博客相册问题" class="headerlink" title="创建博客相册问题"></a>创建博客相册问题</h1><h2 id="模仿相关程序"><a href="#模仿相关程序" class="headerlink" title="模仿相关程序"></a>模仿相关程序</h2>  <a id="more"></a>  <p>  摘抄网上现有的程序使图片有位置存放和调用，中间出现的问题是建立仓库问题时网站选取以及调用的拼写问题。</p><h3 id="模仿出现问题点"><a href="#模仿出现问题点" class="headerlink" title="模仿出现问题点"></a>模仿出现问题点</h3><p>  寻找相关相册copy目录内容，下载不易，更改内部链接文件要细心，对于网址的格式要正确。如仓库存储位置变换，其地址要随着更改。</p><h1 id="设置缩略图"><a href="#设置缩略图" class="headerlink" title="设置缩略图"></a>设置缩略图</h1><p>  对于缩略图显示要裁剪原图片及修改地址，还要增加个目录以便博客自己调取。</p><h2 id="缩略图问题点"><a href="#缩略图问题点" class="headerlink" title="缩略图问题点"></a>缩略图问题点</h2><p>  要裁剪图片需要相关代码，解决后上传到仓库。</p>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="创建博客相册问题"><a href="#创建博客相册问题" class="headerlink" title="创建博客相册问题"></a>创建博客相册问题</h1><h2 id="模仿相关程序"><a href="#模仿相关程序" class="headerlink" title="模仿相关程序"></a>模仿相关程序</h2>  <a id="more"></a>  <p>  摘抄网上现有的程序使图片有位置存放和调用，中间出现的问题是建立仓库问题时网站选取以及调用的拼写问题。</p><h3 id="模仿出现问题点"><a href="#模仿出现问题点" class="headerlink" title="模仿出现问题点"></a>模仿出现问题点</h3><p>  寻找相关相册copy目录内容，下载不易，更改内部链接文件要细心，对于网址的格式要正确。如仓库存储位置变换，其地址要随着更改。</p><h1 id="设置缩略图"><a href="#设置缩略图" class="headerlink" title="设置缩略图"></a>设置缩略图</h1><p>  对于缩略图显示要裁剪原图片及修改地址，还要增加个目录以便博客自己调取。</p><h2 id="缩略图问题点"><a href="#缩略图问题点" class="headerlink" title="缩略图问题点"></a>缩略图问题点</h2><p>  要裁剪图片需要相关代码，解决后上传到仓库。</p>]]></content>
       
       
       
@@ -97,7 +97,7 @@
       <link href="/2019/12/10/GET%E6%96%B0%E7%9A%84%E6%8A%80%E8%83%BD/"/>
       <url>/2019/12/10/GET%E6%96%B0%E7%9A%84%E6%8A%80%E8%83%BD/</url>
       
-        <content type="html"><![CDATA[<p>第一次接触类似编程的东东，中间少不了朋友的帮助，感觉好新奇。每天都要保持对于事物的新鲜感，这样感觉自己还能学到新的知识，加油!!</p>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>第一次接触类似编程的东东，中间少不了朋友的帮助，感觉好新奇。每天都要保持对于事物的新鲜感，这样感觉自己还能学到新的知识，加油!!</p>]]></content>
       
       
       
